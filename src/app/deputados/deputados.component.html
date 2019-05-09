@@ -1,0 +1,18 @@
+<h1>Uso da API dos dados aberto da camera de deputados</h1>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Nome</th>
+    <th>UF</th>
+    <th>Patido</th>
+  </tr>
+
+  <tr *ngFor="let d of deputado">
+    <td>{{d.id}}</td>
+    <td>{{d.nome}}</td>
+    <td>{{d.siglaUf}}</td>
+    <td>{{d.siglaPartido}}</td>
+  </tr>
+
+</table>
